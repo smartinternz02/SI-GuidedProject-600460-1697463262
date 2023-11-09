@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+
+#title {
+    background-color: #2b7cb6;
+    color: white;
+    border-bottom: 0cm;
+}
+
+.container-fluid {
+    padding: 3% 10% 2.5%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+
+.navbar {
+    padding: 0 0 10% 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.05rem;
+    font-family: "Montserrat";
+}
+
+.d-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 34%;
+    transform: rotate(0%);
+    position: absolute;
+    right: 10%;
+}
+
+
+#instructions {
+    padding: 2% 10% 3% 10%;
+    background-color: white;
+    position: relative;
+}
+
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: black;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+h4 {
+    font-family: "Montserrat";
+    font-weight: lighter;
+    color: white;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.testimonial-text {
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+    font-size: 2.75rem;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+p {
+    color: grey;
+}
+
+.icon {
+    color: #2b7cb6;
+    margin-bottom: 1%;
+}
+
+.icon:hover {
+    color: #4da3e0;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #2b7cb6;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 30px 30px 15px 30px;
+}
+
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+#prediction {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-clm {
+    padding: 3% 2%;
+}
+
+.prcg {
+    margin-bottom: 3%;
+}
+
+@media(max-width: 980px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+
+#dataset {
+    text-align: center;
+    background-color: #2b7cb6;
+    padding: 3% 2% 2% 2%;
+}
+
+.ftr {
+    color: white;
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2% 9% 3% 9%;
+}
+
+.d-btnn {
+    margin: 0% 1.5% 4% 0;
+}
+
+#footer {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.ftr-logo {
+    margin: 4% 2% 1% 2%;
+}
+
+.ft-logo {
+    margin: 0 1%;
+}
+
+.ft-logo:hover {
+    color: gray;
+}
